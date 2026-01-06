@@ -2,12 +2,12 @@
 #include <FirebaseESP32.h>
 
 // ==== Konfigurasi WiFi ====
-#define WIFI_SSID "fangzy" // SSID
-#define WIFI_PASSWORD "fangzy12345" // SSID
+#define WIFI_SSID "" // SSID
+#define WIFI_PASSWORD "" // SSID
 
 // ==== Konfigurasi Firebase ====
-#define FIREBASE_HOST "hidroponik-e51a2-default-rtdb.asia-southeast1.firebasedatabase.app" // HOST 
-#define FIREBASE_AUTH "AIzaSyBYvPT3kQc-03irPPJnE0_yAXoVxCNSEKo" // AUTH TOKEN
+#define FIREBASE_HOST "" // HOST 
+#define FIREBASE_AUTH "" // AUTH TOKEN
 
 FirebaseData fbData;
 FirebaseAuth auth;
